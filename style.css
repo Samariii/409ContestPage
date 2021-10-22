@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?b2z4ym');
+  src:  url('fonts/icomoon.eot?b2z4ym#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?b2z4ym') format('truetype'),
+    url('fonts/icomoon.woff?b2z4ym') format('woff'),
+    url('fonts/icomoon.svg?b2z4ym#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Chat:before {
+  content: "\63";
+}
+.icon-Covid:before {
+  content: "\6f";
+}
+.icon-Covid2:before {
+  content: "\69";
+}
+.icon-Earth:before {
+  content: "\65";
+}
+.icon-Earth2:before {
+  content: "\61";
+}
+.icon-Mask:before {
+  content: "\73";
+}
+.icon-Mic:before {
+  content: "\6d";
+}
+.icon-People:before {
+  content: "\70";
+}
+.icon-Resilience:before {
+  content: "\72";
+}
